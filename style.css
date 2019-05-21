@@ -1,0 +1,222 @@
+
+*{
+
+}
+
+
+
+body{
+    width: 950px;
+    text-align: left;
+    margin: 0px auto;
+    padding-bottom: 0px;
+    background-image: linear-gradient(saddlebrown, sandybrown, chocolate);
+    /*background: #000 url(images/background.jpg) repeat-y center top;*/
+    color: azure;
+
+}
+
+#googleMap{
+    border:0;
+}
+#facebookPage{
+    border:none;
+    overflow:hidden
+}
+
+
+#floatLeft{
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin-top: 20px;
+    background: rgba(114, 61, 2, 0.7);
+}
+#floatRight{
+    float: right;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background: rgba(114, 61, 2, 0.7);
+}
+
+#floatRight iframe{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-left:60px;
+    margin-top: 10px;
+}
+
+
+
+.notShow{
+    height: 0;
+    border-top: none;
+    opacity: 0;
+    padding: 0;
+}
+
+.show{
+    padding: 20px;
+    opacity: 1;
+    height: auto;
+}
+
+#body #header #nazevRestaurace img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#facebookId{
+    margin-left:30px;
+}
+
+#body{
+    background: #000 url(images/bg2.jpg) repeat-y center top;
+}
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+#header {
+    text-align: left;
+
+}
+
+#openHours {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    background: rgba(114, 61, 2, 0.7);
+}
+
+#menuUlLi{
+    position: relative;
+}
+
+#menuUlLi ul {
+    list-style:none;
+    /*background-color: coral;*/
+
+}
+
+
+#menuUlLi ul li{
+    display:inline-block;
+    text-align: center;
+    padding: 5px 16px 5px 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    background: rgba(114, 61, 2, 0.7);
+
+
+
+}
+
+#menuUlLi ul li:hover{
+    background: rgba(114, 61, 2, 0.8);
+    text-decoration: underline;
+
+}
+
+#menuUlLi ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+#footer ul li:hover{
+    color: azure;
+    text-decoration: underline;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: rgb(173, 155, 0);
+}
+
+#o_nas_context p{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background: rgba(114, 61, 2, 0.7);
+}
+
+.alignCenter{
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    background: rgba(114, 61, 2, 0.7);
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.alignCenter p{
+    margin: 15px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+#footer ul li {
+    display:inline-block;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#footer {
+    padding-bottom: 10px;
+}
+
+
+#footer p{
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+
+.content{
+    background: rgba(114, 61, 2, 0.7);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#fotogalerieImg img{
+     width: 300px;
+     height: 300px;
+     margin: 6px;
+ }
+
+#mainContext{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+#mainContext h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainContextColumn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+
+#mainContextColumn h2{
+    margin-left: auto;
+    margin-right: auto;
+}
